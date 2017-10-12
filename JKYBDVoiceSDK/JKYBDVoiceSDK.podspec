@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
 
   s.resource_bundles = {
     'Resources' => ['JKYBDVoiceSDK/JKYBDVoiceSDK/Assets/**/*.{bundle,caf}']
-  } 
+  }
+
+  s.framework = 'AudioToolbox','AVFoundation','CFNetwork','CoreGraphics','CoreLocation','CoreText','Foundation','GLKit','OpenGLES','QuartzCore','Security','SystemConfiguration','UIKit'
   
 end
