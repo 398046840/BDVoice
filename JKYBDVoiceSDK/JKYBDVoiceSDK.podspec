@@ -11,12 +11,12 @@ Pod::Spec.new do |s|
 
   s.description      = '语音SDK'
                        
-  s.source_files = 'BDVoice/JKYBDVoiceSDK/Classes/**/*'
+  s.source_files = 'BDVoice/JKYBDVoiceSDK/JKYBDVoiceSDK/Classes/**/*'
 
-  s.public_header_files = 'BDVoice/JKYBDVoiceSDK/Classes/Headers/**/*'
+  s.public_header_files = 'BDVoice/JKYBDVoiceSDK/JKYBDVoiceSDK/Classes/Headers/**/*'
 
   s.resource_bundles = {
-    'Resources' => ['BDVoice/JKYBDVoiceSDK/Assets/**/*.{bundle,caf}']
+    'Resources' => ['BDVoice/JKYBDVoiceSDK/JKYBDVoiceSDK/Assets/**/*.{bundle,caf}']
   } 
   
 end
