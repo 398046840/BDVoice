@@ -40,7 +40,7 @@
 		1833356C2345970EFF5582A6 /* Pods-JKYBDVoiceSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYBDVoiceSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKYBDVoiceSDK_Example/Pods-JKYBDVoiceSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		23A8084A1DF3E8DEB66E568D /* Pods-JKYBDVoiceSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYBDVoiceSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKYBDVoiceSDK_Tests/Pods-JKYBDVoiceSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49C1E1D2308C9AEE5BB736BD /* Pods-JKYBDVoiceSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYBDVoiceSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKYBDVoiceSDK_Example/Pods-JKYBDVoiceSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5F8A5F051AFF4F1E426ADEF0 /* JKYBDVoiceSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JKYBDVoiceSDK.podspec; path = ../JKYBDVoiceSDK.podspec; sourceTree = "<group>"; };
+		5F8A5F051AFF4F1E426ADEF0 /* JKYBDVoiceSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKYBDVoiceSDK.podspec; path = ../JKYBDVoiceSDK.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JKYBDVoiceSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKYBDVoiceSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A94461D7FB79A96618F043D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		96DC40638A9E563580577FC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8A94461D7FB79A96618F043D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		96DC40638A9E563580577FC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C39AAFE463FC3EA3C4273965 /* Pods_JKYBDVoiceSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKYBDVoiceSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF84CA541F8F4C16000160EC /* BDVRSConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDVRSConfig.h; sourceTree = "<group>"; };
+		EF84CA551F8F4C16000160EC /* BDVRSConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDVRSConfig.m; sourceTree = "<group>"; };
 		F96D541F66FFA31CA9B32DC5 /* Pods_JKYBDVoiceSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKYBDVoiceSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6D87178C0BCB379FE218C7 /* Pods-JKYBDVoiceSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYBDVoiceSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKYBDVoiceSDK_Tests/Pods-JKYBDVoiceSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* Example for JKYBDVoiceSDK */ = {
 			isa = PBXGroup;
 			children = (
+				EF84CA531F8F4C16000160EC /* BDVoice */,
 				6003F59C195388D20070C39A /* JKYAppDelegate.h */,
 				6003F59D195388D20070C39A /* JKYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +197,15 @@
 				23A8084A1DF3E8DEB66E568D /* Pods-JKYBDVoiceSDK_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF84CA531F8F4C16000160EC /* BDVoice */ = {
+			isa = PBXGroup;
+			children = (
+				EF84CA541F8F4C16000160EC /* BDVRSConfig.h */,
+				EF84CA551F8F4C16000160EC /* BDVRSConfig.m */,
+			);
+			path = BDVoice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

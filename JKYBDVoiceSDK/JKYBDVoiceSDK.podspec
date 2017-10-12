@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JKYBDVoiceSDK'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = '语音SDK'
   s.ios.deployment_target = '7.0'
   s.homepage         = 'https://github.com/398046840@qq.com'
@@ -20,5 +20,6 @@ Pod::Spec.new do |s|
   }
 
   s.framework = 'AudioToolbox','AVFoundation','CFNetwork','CoreGraphics','CoreLocation','CoreText','Foundation','GLKit','OpenGLES','QuartzCore','Security','SystemConfiguration','UIKit'
-  
+  s.library   = 'z.1.2.5', 'stdc++'
+  s.vendored_libraries = "JKYBDVoiceSDK/JKYBDVoiceSDK/Classes/libBDVoiceRecognitionClient.a"
 end
